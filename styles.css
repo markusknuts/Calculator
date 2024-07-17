@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn {
+    width: 75px;
+    height: 75px;
+    margin: 15px;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.number {
+    border: 1px solid greenyellow;
+}
+
+.number:hover {
+    background-color: palegreen;
+}
+
+.operators {
+    border: 1px solid blue;
+}
+
+.operators:hover {
+    background-color: blueviolet;
+}
+
+.clear {
+    border: 1px solid red;
+}
+
+.clear:hover {
+    background-color: palevioletred;
+}
+
+.equals {
+    border: 1px solid purple;
+}
+
+.equals:hover {
+    background-color: purple;
+}
+
+.decimal {
+    border: 1px solid pink;
+}
+
+.decimal:hover {
+    background-color: pink;
+}
+
+.first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.previous {
+    font-size: 20px;
+}
+
+.current {
+    font-size: 30px;
+}
+
+#screen {
+    width: 290px;
+    height: 75px;
+    border: 1px solid salmon;
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator for dummies</title>
-    <link rel="stylessheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div id="display">
-            
-        </div>
+    <h1>Calculator</h1>
+    <div class="calculator">
         <div class="first-row">
-            <button id="7">7</button>
-            <button id="8">8</button>
-            <button id="9">9</button>
+            <div id="screen">
+                <div class="previous"></div>
+                <div class="current"></div>
+            </div>
+            <button class="btn clear">C</button>
         </div>
-        <div class="second-row">
-            <button id="4">4</button>
-            <button id="5">5</button>
-            <button id="6">6</button>
+        <div class="other-rows">
+            <button class="btn number">7</button>
+            <button class="btn number">8</button>
+            <button class="btn number">9</button>
+            <button class="btn operators">/</button>
         </div>
-        <div class="third-row">
-            <button id="1">1</button>
-            <button id="2">2</button>
-            <button id="3">3</button>
+        <div class="other-rows">
+            <button class="btn number">4</button>
+            <button class="btn number">5</button>
+            <button class="btn number">6</button>
+            <button class="btn operators">x</button>
         </div>
-        <div class="fourth-row">
-            <button id="equals">=</button>
-            <button id="clear">c</button>
+        <div class="other-rows">
+            <button class="btn number">1</button>
+            <button class="btn number">2</button>
+            <button class="btn number">3</button>
+            <button class="btn operators">-</button>
+        </div>
+        <div class="other-rows">
+            <button class="btn decimal">.</button>
+            <button class="btn number">0</button>
+            <button class="btn equals">=</button>
+            <button class="btn operators">+</button>
         </div>
     </div>
     <script src="script.js"></script>
